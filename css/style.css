@@ -1,0 +1,1256 @@
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999999;
+    color: #fff;
+    padding-bottom: 5px;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,.15);
+    background: linear-gradient(to right, #7f00ff, #e100ff);
+}
+.header {
+    background: url("../image/2.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.inner-header {
+    background: rgba(0, 0, 0, .85);
+    height: 100%;
+    width: 100%;
+}
+/* .nav{background-color: black; width: 100%; height: 100px; } */
+.logo h3 a {
+    color: #fff;
+    padding-top: 30px;
+    text-decoration: none;
+    display: block;
+}
+.nav nav ul {
+    list-style: none;
+    display: flex;
+    position: relative;
+}
+
+.nav nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 35px 15px 0;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.nav nav ul li a:hover:before {
+    content: '';
+    position: absolute;
+    transition: 1s ease-in;
+    /* display: none; */
+    width: 46px;
+    height: 2.2px;
+    top: 59px;
+    background: #18d26e;
+}
+
+.content-me {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+}
+.content-me h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+.animate-typing {
+    font-size: 30px;
+    font-weight: 450;
+}
+.service-section {
+    height: 100vh;
+    width: 100%;
+}
+.service-section .container h1 {
+    text-transform: uppercase;
+    padding-top: 80px;
+    color: #000;
+    text-align: center;
+}
+.service-section .container p {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+}
+.service-section .container h3 {
+    color: #000;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+/* .card .card-body{text-align: center;} */
+.service-section .container .card i {
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border: 5px solid #7f00ff;
+    border-radius: 50%;
+}
+.service-section .container .card {
+    border: none;
+    box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    padding: 10px !important;
+    margin-bottom: 20px;
+}
+.service-section .container .card .card-body p {
+    padding-top: 10px;
+}
+
+.service-section .container .card span {
+    background: #fff;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    border: 5px solid #7f00ff;
+    color: rgb(51, 51, 211);
+    text-align: center;
+    padding-top: 18px;
+    display: block;
+    width: 80px !important;
+    height: 80px !important;
+    margin: auto;
+}
+.service-section .container .card:hover span {
+    background: #fff;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+    border: 5px solid #fff;
+    color: rgb(51, 51, 211);
+}
+.service-section .container .card:hover {
+    background: linear-gradient(to right, #7f00ff, #e100ff);
+    transition: all 0.6s ease-in;
+}
+
+.service-section .container .card:hover p {
+    color: #fff;
+}
+.service-section .container .card:hover h3 {
+    color: #fff;
+}
+.card .card-body p {
+    text-align: justify;
+}
+.about-section {
+    height: 100vh;
+    width: 100%;
+    background-color: #eeeeee;
+    margin-top: 150px;
+}
+.about-section .about-section-inner h1 {
+    padding-top: 80px;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: #173b6c;
+    position: relative;
+}
+.about-section .about-section-inner h1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: -10px;
+    left: 48.5%;
+}
+.about-section .about-section-inner .box {
+    background-color: #fff;
+    padding: 50px;
+    margin-top: 50px;
+    box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.08);
+}
+.about-section .about-section-inner .box ul {
+    list-style: none;
+    padding: 0;
+}
+.about-section .about-section-inner .box p {
+    font-weight: bold;
+    font-size: 20px;
+}
+.about-section .about-section-inner .box ul li {
+    padding-bottom: 5px;
+    font-size: 16px;
+}
+.about-section .about-section-inner .box .skill p {
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.about-section .about-section-inner .about-me-text {
+    text-align: justify;
+    font-weight: normal !important;
+    font-size: 18px !important;
+}
+.contact-section {
+    height: 700px;
+    margin-top: 120px;
+    width: 100%;
+    background: url("../image/6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.contact-section-inner {
+    height: 100%;
+    width: 100%;
+    padding: 100px;
+}
+.contact-section .contact-section-inner .container {
+    width: 100%;
+    height: 520px;
+    background-color: rgba(0, 0, 0, .85);
+    padding: 50px;
+}
+.contact-section .contact-section-inner .container .title p {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.contact-section .contact-section-inner .container .row p {
+    font-size: 25px;
+}
+.contact-section .contact-section-inner .container ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.contact-section .contact-section-inner .container ul li {
+    color: #fff;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+.footer {
+    height: 80px;
+    line-height: 50px;
+    width: 100%;
+    background: rgba(0, 0, 0, .9);
+    text-align: center;
+    color: #fff;
+}
+
+.border-none {
+    border: none;
+    background: linear-gradient(to right, #7f00ff, #e100ff);
+}
+.portfolio-section {
+    height: 700px;
+    width: 100%;
+}
+.portfolio-section .container {
+    padding: 80px;
+}
+.portfolio-section .container h1 {
+    text-transform: uppercase;
+}
+.portfolio-section .container .link-tab {
+    text-align: center;
+    padding-top: 30px;
+}
+.portfolio-section .container .link-tab ul {
+    list-style: none;
+    overflow: hidden;
+    padding-bottom: 40px;
+}
+.portfolio-section .container .link-tab ul li {
+    background: rgba(0, 0, 0, .9);
+    color: #fff;
+    text-transform: uppercase;
+}
+.portfolio-section .container .link-tab ul li:hover {
+    background: #18d26e;
+}
+.portfolio-section .container .link-tab .box {
+    width: 30%;
+    height: 150px;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* /testimonial-section */
+
+.testimonial-section {
+    height: 450px;
+    width: 100%;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+}
+
+.testimonial-section .container h2 {
+    padding-bottom: 20px;
+}
+
+#exampleSlider {
+    position: relative;
+}
+
+#exampleSlider .MS-content {
+    margin: 15px 5%;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 200px;
+    padding-top: 30px;
+}
+
+#exampleSlider .MS-content .item {
+    display: inline-block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+    border-right: none;
+    width: 100%;
+}
+
+#exampleSlider .MS-content .item p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1;
+    vertical-align: middle;
+    margin: 0;
+    padding: 10px 0;
+}
+#exampleSlider .MS-content .item .text-none {
+    display: none;
+}
+#exampleSlider .MS-content .item img {
+    border-radius: 50%;
+}
+#exampleSlider .MS-controls button {
+    position: absolute;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    outline: 0;
+    top: 75px;
+}
+
+#exampleSlider .MS-controls button:hover {
+    cursor: pointer;
+}
+#exampleSlider .MS-controls .MS-left {
+    left: 10px;
+}
+
+#exampleSlider .MS-controls .MS-right {
+    right: 10px;
+}
+
+.collapse-menu {
+    display: none;
+}
+.border-none {
+    border: none !important;
+}
+
+/* /Media Query Responsive */
+
+@media (max-width: 480px) {
+    .fixed-header {
+        display: none !important;
+    }
+    .logo {
+        display: none;
+    }
+    .collapse-menu {
+        color: #fff;
+        display: block;
+        margin-left: 94%;
+        padding: 5px 0 10px;
+    }
+    .collapse-menu span {
+        cursor: pointer;
+    }
+    .header nav ul {
+        display: block;
+        display: none;
+        position: absolute;
+        right: 8px;
+        top: 35px;
+        background: #fff;
+    }
+    .nav nav ul li a {
+        color: #000;
+        margin-left: -25px;
+        padding: 5px;
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .content-me h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .animate-typing {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    .header {
+        background: url("../image/1.jpg");
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .content-me {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .service-section {
+        height: auto;
+
+    }
+    .service-section .container h1 {
+        font-size: 25px;
+        padding-top: 50px !important;
+        font-weight: 650;
+    }
+    .service-section .container .service-about {
+        font-size: 15px;
+    }
+    .service-section .container p {
+        font-size: 16px;
+    }
+    .service-section .container .card .card-body h3 {
+        font-weight: 620;
+    }
+
+    .about-section {
+        height: auto;
+        margin-top: 0;
+    }
+    /* .about-section .container {
+        padding-right: 0 !important;
+    } */
+    .about-section .about-section-inner {
+        background-color: #fff;
+        padding-top: 0 !important;
+
+    }
+
+    .about-section .about-section-inner h1 {
+
+        text-transform: uppercase;
+        font-size: 28px !important;
+        color: #000;
+        position: relative;
+    }
+    .about-section .about-section-inner h1::after {
+        bottom: -10px;
+        left: 43%;
+    }
+    .skil-img {
+        text-align: center;
+
+    }
+    .about-section .about-section-inner .col-sm-6 {
+        padding: 0 !important;
+    }
+    .about-section .about-section-inner .col-sm-6 ul {
+        padding-top: 10px !important;
+    }
+    .about-section .about-section-inner .about-flex .col-sm-6 ul li {
+        padding-bottom: 5px !important;
+        font-size: 15px;
+
+    }
+    .about-section .about-section-inner .col-sm-12 {
+        padding: 0 !important;
+        display: block !important;
+    }
+    .about-section .about-section-inner .col-sm-12 p {
+        padding: 0 !important;
+    }
+    .about-section .about-section-inner .col-sm-12 .skill p {
+        font-size: 13px !important;
+    }
+
+    .portfolio-section {
+        height: auto;
+    }
+
+    .portfolio-section .container h1 {
+        font-size: 25px;
+        font-weight: 600 !important;
+        padding-top: 30px !important;
+    }
+
+    .portfolio-section .container {
+        text-align: left;
+        padding: 8px;
+    }
+
+    .portfolio-section .container .link-tab {
+        text-align: center;
+    }
+    .portfolio-section .container .link-tab ul {
+        font-size: 13px;
+        padding: 0 0 20px;
+    }
+    .portfolio-section .container .link-tab ul li {
+        font-size: 12px;
+    }
+    .portfolio-section .container .link-tab ul li:nth-child(5) {
+        margin-top: 5px;
+    }
+    .portfolio-section .container .link-tab .box {
+        width: 45%;
+        height: 150px;
+
+    }
+    .portfolio-section .container .link-tab .box img {
+        width: 160px;
+        padding-left: 8px;
+    }
+
+    .testimonial-section {
+        margin-top: 50px;
+        height: 300px;
+        width: 100%;
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+    }
+
+    .testimonial-section .container h2 {
+        padding-bottom: 15px;
+        font-size: 22px;
+        font-weight: 600 !important;
+    }
+
+    #exampleSlider .MS-content {
+        height: 150px;
+        padding-top: 0;
+    }
+    #exampleSlider .MS-content .item p {
+        font-size: 15px !important;
+        padding: 10px;
+        display: none;
+    }
+    #exampleSlider .MS-content .item .text-none {
+        display: block;
+        font-size: 15px !important;
+        padding: 10px;
+    }
+    #exampleSlider .MS-controls button {
+        font-size: 20px;
+        top: 50px;
+    }
+    #exampleSlider .MS-controls button:hover {
+        cursor: pointer;
+    }
+    #exampleSlider .MS-controls .MS-left {
+        left: 5px !important;
+    }
+
+    #exampleSlider .MS-controls .MS-right {
+        right: 5px !important;
+    }
+
+    .contact-section {
+        height: auto !important;
+    }
+    .contact-section-inner {
+        height: auto;
+        padding: 15px;
+    }
+
+    .contact-section .contact-section-inner .container {
+        height: auto;
+    }
+    .contact-section .contact-section-inner {
+        font-size: 15px;
+    }
+    .contact-section .contact-section-inner .container .title p {
+        font-size: 20px;
+        font-weight: 500 !important;
+    }
+    .contact-section .contact-section-inner .container .row p {
+        font-size: 18px;
+    }
+    .contact-section .contact-section-inner .container .row ul li {
+        font-size: 14px;
+    }
+    .footer p {
+
+        line-height: 20px !important;
+    }
+
+    .footer {
+        padding: 8px !important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .fixed-header {
+        display: none !important;
+    }
+    .logo {
+        display: none;
+    }
+    .collapse-menu {
+        color: #fff;
+        display: block;
+        margin-left: 94%;
+        padding: 5px 0 10px;
+    }
+    .collapse-menu span {
+        cursor: pointer;
+    }
+    .header nav ul {
+        display: block;
+        display: none;
+        position: absolute;
+        right: 8px;
+        top: 35px;
+        background: #fff;
+    }
+    .nav nav ul li a {
+        color: #000;
+        margin-left: -25px;
+        padding: 5px;
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .content-me h1 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .animate-typing {
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    .header {
+        background: url("../image/1.jpg");
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .content-me {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .service-section {
+        height: auto;
+
+    }
+    .service-section .container h1 {
+        font-size: 25px;
+        padding-top: 50px !important;
+        font-weight: 650;
+    }
+    .service-section .container .service-about {
+        font-size: 15px;
+    }
+    .service-section .container p {
+        font-size: 16px;
+    }
+    .service-section .container .card .card-body h3 {
+        font-weight: 620;
+    }
+
+    .about-section {
+        height: auto;
+        margin-top: 0;
+    }
+    /* .about-section .container {
+        padding-right: 0 !important;
+    } */
+    .about-section .about-section-inner {
+        background-color: #fff;
+        padding-top: 0 !important;
+
+    }
+
+    .about-section .about-section-inner h1 {
+
+        text-transform: uppercase;
+        font-size: 28px !important;
+        color: #000;
+        position: relative;
+    }
+    .about-section .about-section-inner h1::after {
+        bottom: -10px;
+        left: 43%;
+    }
+    .skil-img {
+        text-align: center;
+
+    }
+    .about-section .about-section-inner .col-sm-6 {
+        padding: 0 !important;
+    }
+    .about-section .about-section-inner .col-sm-6 ul {
+        padding-top: 10px !important;
+    }
+    .about-section .about-section-inner .about-flex .col-sm-6 ul li {
+        padding-bottom: 5px !important;
+        font-size: 15px;
+
+    }
+    .about-section .about-section-inner .col-sm-12 {
+        padding: 0 !important;
+        display: block !important;
+    }
+    .about-section .about-section-inner .col-sm-12 p {
+        padding: 0 !important;
+    }
+    .about-section .about-section-inner .col-sm-12 .skill p {
+        font-size: 13px !important;
+    }
+
+    .portfolio-section {
+        height: auto;
+    }
+
+    .portfolio-section .container h1 {
+        font-size: 25px;
+        font-weight: 600 !important;
+        padding-top: 30px !important;
+    }
+
+    .portfolio-section .container {
+        text-align: left;
+        padding: 8px;
+    }
+
+    .portfolio-section .container .link-tab {
+        text-align: center;
+    }
+    .portfolio-section .container .link-tab ul {
+        font-size: 13px;
+        padding: 0 0 20px;
+    }
+    .portfolio-section .container .link-tab ul li {
+        font-size: 12px;
+    }
+    .portfolio-section .container .link-tab ul li:nth-child(5) {
+        margin-top: 5px;
+    }
+    .portfolio-section .container .link-tab .box {
+        width: 45%;
+        height: 150px;
+
+    }
+    .portfolio-section .container .link-tab .box img {
+        width: 100%;
+        padding-left: 8px;
+    }
+
+    .testimonial-section {
+        margin-top: 50px;
+        height: 300px;
+        width: 100%;
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+    }
+
+    .testimonial-section .container h2 {
+        padding-bottom: 15px;
+        font-size: 22px;
+        font-weight: 600 !important;
+    }
+
+    #exampleSlider .MS-content {
+        height: 150px;
+        padding-top: 0;
+    }
+    #exampleSlider .MS-content .item p {
+        font-size: 15px !important;
+        padding: 10px;
+        display: none;
+    }
+    #exampleSlider .MS-content .item .text-none {
+        display: block;
+        font-size: 15px !important;
+        padding: 10px;
+    }
+    #exampleSlider .MS-controls button {
+        font-size: 20px;
+        top: 50px;
+    }
+    #exampleSlider .MS-controls button:hover {
+        cursor: pointer;
+    }
+    #exampleSlider .MS-controls .MS-left {
+        left: 5px !important;
+    }
+
+    #exampleSlider .MS-controls .MS-right {
+        right: 5px !important;
+    }
+
+    .contact-section {
+        height: auto !important;
+    }
+    .contact-section-inner {
+        height: auto;
+        padding: 15px;
+    }
+
+    .contact-section .contact-section-inner .container {
+        height: auto;
+    }
+    .contact-section .contact-section-inner {
+        font-size: 15px;
+    }
+    .contact-section .contact-section-inner .container .title p {
+        font-size: 20px;
+        font-weight: 500 !important;
+    }
+    .contact-section .contact-section-inner .container .row p {
+        font-size: 18px;
+    }
+    .contact-section .contact-section-inner .container .row ul li {
+        font-size: 14px;
+    }
+    .footer p {
+        padding-bottom: 35px !important;
+    }
+
+    .footer {
+        padding: 20px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .nav nav ul li a {
+
+        margin-left: -25px;
+        padding: 38px 28px 10px;
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .content-me h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .animate-typing {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .header {
+        background: url("../image/1.jpg");
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .content-me {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .service-section {
+        height: auto;
+
+    }
+    .service-section .container h1 {
+        font-size: 25px;
+        padding-top: 50px !important;
+        font-weight: 650;
+    }
+    .service-section .container .service-about {
+        font-size: 15px;
+    }
+    .service-section .container p {
+        font-size: 16px;
+    }
+    .service-section .container .card .card-body h3 {
+        font-weight: 620;
+    }
+
+    .about-section {
+        height: auto;
+        margin-top: 0;
+    }
+    /* .about-section .container {
+        padding-right: 0 !important;
+    } */
+    .about-section .about-section-inner {
+        background-color: #fff;
+        padding-top: 0 !important;
+
+    }
+
+    .about-section .about-section-inner h1 {
+
+        text-transform: uppercase;
+        font-size: 28px !important;
+        color: #000;
+        position: relative;
+    }
+    .about-section .about-section-inner h1::after {
+        bottom: -5px !important;
+        left: 46.5%;
+    }
+    .skil-img {
+        text-align: center;
+
+    }
+    .about-section .about-section-inner .col-sm-6 {
+        padding: 0 !important;
+    }
+    .about-section .about-section-inner .col-sm-6 ul {
+        padding-top: 10px !important;
+    }
+    .about-section .about-section-inner .about-flex .col-sm-6 ul li {
+        padding-bottom: 5px !important;
+        font-size: 15px;
+
+    }
+
+    .about-section .about-section-inner .col-sm-12 p {
+        padding: 0 !important;
+    }
+    .about-section .about-section-inner .col-sm-12 .skill p {
+        font-size: 13px !important;
+    }
+
+    .portfolio-section {
+        height: auto;
+    }
+
+    .portfolio-section .container h1 {
+        font-size: 25px;
+        font-weight: 600 !important;
+        padding-top: 30px !important;
+    }
+
+    .portfolio-section .container {
+        text-align: left;
+        padding: 8px;
+    }
+
+    .portfolio-section .container .link-tab {
+        text-align: center;
+    }
+    .portfolio-section .container .link-tab ul {
+        font-size: 13px;
+        padding: 0 0 20px;
+    }
+    .portfolio-section .container .link-tab ul li {
+        font-size: 12px;
+    }
+    .portfolio-section .container .link-tab ul li:nth-child(5) {
+        margin-top: 5px;
+    }
+    .portfolio-section .container .link-tab .box {
+        width: 45%;
+        height: 150px;
+
+    }
+    .portfolio-section .container .link-tab .box img {
+        width: 100%;
+        padding-left: 8px;
+    }
+
+    .testimonial-section {
+        margin-top: 50px;
+        height: 300px;
+        width: 100%;
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+    }
+
+    .testimonial-section .container h2 {
+        padding-bottom: 15px;
+        font-size: 22px;
+        font-weight: 600 !important;
+    }
+
+    #exampleSlider .MS-content {
+        height: 150px;
+        padding-top: 0;
+    }
+    #exampleSlider .MS-content .item p {
+        font-size: 15px !important;
+        padding: 10px;
+
+    }
+    #exampleSlider .MS-content .item .text-none {
+        display: none;
+        font-size: 15px !important;
+        padding: 10px;
+    }
+    #exampleSlider .MS-controls button {
+        font-size: 20px;
+        top: 50px;
+    }
+    #exampleSlider .MS-controls button:hover {
+        cursor: pointer;
+    }
+    #exampleSlider .MS-controls .MS-left {
+        left: 5px !important;
+    }
+
+    #exampleSlider .MS-controls .MS-right {
+        right: 5px !important;
+    }
+
+    .contact-section {
+        height: auto !important;
+    }
+    .contact-section-inner {
+        height: auto;
+        padding: 15px;
+    }
+
+    .contact-section .contact-section-inner .container {
+        height: auto;
+    }
+    .contact-section .contact-section-inner {
+        font-size: 15px;
+    }
+    .contact-section .contact-section-inner .container .title p {
+        font-size: 20px;
+        font-weight: 500 !important;
+    }
+    .contact-section .contact-section-inner .container .row p {
+        font-size: 18px;
+    }
+    .contact-section .contact-section-inner .container .row ul li {
+        font-size: 14px;
+    }
+    .footer p {
+        padding-bottom: 35px !important;
+    }
+
+    .footer {
+        padding: 20px !important;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .nav nav ul li a {
+
+        margin-left: -25px;
+        padding: 38px 28px 10px;
+        display: block;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .service-section {
+        height: auto;
+
+    }
+    .service-section .container h1 {
+        font-size: 25px;
+        padding-top: 50px !important;
+        font-weight: 650;
+    }
+    .service-section .container .service-about {
+        font-size: 15px;
+    }
+    .service-section .container p {
+        font-size: 16px;
+    }
+    .service-section .container .card .card-body h3 {
+        font-weight: 620;
+    }
+
+    .about-section {
+        height: auto;
+        margin-top: 0;
+    }
+    /* .about-section .container {
+        padding-right: 0 !important;
+    } */
+    /* .about-section .about-section-inner {
+        background-color: #fff;
+        padding-top: 0px !important;
+
+    } */
+    .about-section .about-section-inner .box {
+        background-color: #fff;
+        padding: 50px;
+        margin-top: 50px;
+        box-shadow: 0 0 35px 0 rgba(0, 0, 0, 0.08);
+    }
+    .about-section .about-section-inner h1 {
+
+        text-transform: uppercase;
+        font-size: 28px !important;
+        color: #000;
+        position: relative;
+    }
+    .about-section .about-section-inner h1::after {
+        bottom: -5px !important;
+        left: 46.5%;
+    }
+    .skil-img {
+        text-align: center;
+
+    }
+
+    .about-section .about-section-inner .col-sm-6 ul {
+        padding-top: 10px !important;
+    }
+    .about-section .about-section-inner .about-flex .col-sm-6 ul li {
+        padding-bottom: 5px !important;
+        font-size: 15px;
+
+    }
+
+    .about-section .about-section-inner .col-sm-12 .skill p {
+        font-size: 13px !important;
+    }
+
+    .portfolio-section {
+        height: auto;
+    }
+
+    .portfolio-section .container h1 {
+        font-size: 25px;
+        font-weight: 600 !important;
+        padding-top: 30px !important;
+    }
+
+    .portfolio-section .container {
+        text-align: left;
+        padding: 8px;
+    }
+
+    .portfolio-section .container .link-tab {
+        text-align: center;
+    }
+    .portfolio-section .container .link-tab ul {
+        font-size: 13px;
+        padding: 0 0 20px;
+    }
+    .portfolio-section .container .link-tab ul li {
+        font-size: 12px;
+    }
+    .portfolio-section .container .link-tab ul li:nth-child(5) {
+        margin-top: 5px;
+    }
+    .portfolio-section .container .link-tab .box {
+        width: 30%;
+        height: 150px;
+
+    }
+    .portfolio-section .container .link-tab .box img {
+        padding-left: 12px;
+    }
+
+    .testimonial-section {
+        margin-top: 50px;
+        height: 300px;
+        width: 100%;
+        box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.08);
+    }
+
+    .testimonial-section .container h2 {
+        padding-bottom: 15px;
+        font-size: 22px;
+        font-weight: 600 !important;
+    }
+
+    #exampleSlider .MS-content {
+        height: 150px;
+        padding-top: 0;
+    }
+    #exampleSlider .MS-content .item p {
+        font-size: 18px !important;
+        padding: 10px;
+
+    }
+    #exampleSlider .MS-content .item .text-none {
+        display: none;
+        font-size: 15px !important;
+        padding: 10px;
+    }
+    #exampleSlider .MS-controls button {
+        font-size: 20px;
+        top: 50px;
+    }
+    #exampleSlider .MS-controls button:hover {
+        cursor: pointer;
+    }
+    #exampleSlider .MS-controls .MS-left {
+        left: 5px !important;
+    }
+
+    #exampleSlider .MS-controls .MS-right {
+        right: 5px !important;
+    }
+
+    .contact-section {
+        height: auto !important;
+    }
+    .contact-section-inner {
+        height: auto;
+        padding: 15px;
+    }
+
+    .contact-section .contact-section-inner .container {
+        height: auto;
+    }
+    .contact-section .contact-section-inner {
+        font-size: 15px;
+    }
+    .contact-section .contact-section-inner .container .title p {
+        font-size: 20px;
+        font-weight: 500 !important;
+    }
+    .contact-section .contact-section-inner .container .row p {
+        font-size: 18px;
+    }
+    .contact-section .contact-section-inner .container .row ul li {
+        font-size: 14px;
+    }
+    .footer p {
+        padding-bottom: 35px !important;
+    }
+
+    .footer {
+        padding: 20px !important;
+    }
+}
+
+@media (min-width: 1281px) {
+
+    .footer {
+        height: 100px !important;
+        line-height: 50px;
+        padding: 10px !important;
+    }
+
+}
+
+/* \Media Query Responsive */
