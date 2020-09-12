@@ -397,6 +397,9 @@
         font-size: 16px;
         font-weight: 400;
     }
+    .nav nav ul li a:hover:before {
+       display: none;
+    }
     .content-me h1 {
         font-size: 20px;
         font-weight: 700;
@@ -635,6 +638,9 @@
         display: block;
         font-size: 16px;
         font-weight: 400;
+    }
+    .nav nav ul li a:hover:before {
+       display: none;
     }
     .content-me h1 {
         font-size: 20px;
