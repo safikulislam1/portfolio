@@ -1871,25 +1871,23 @@
                         $("#message").hide();
                         $("#message").addClass("d-none");
                         $("#errormessage").removeClass("d-none");
+                        $("#submit").removeAttr("disabled");
                         $("#errormessage").text("Technical Error Please Contact Our WhatsApp Number");
-                        setTimeout(function () {
-                            $("#errormessage").slideUp("slow");
-                            $("#submit").removeAttr("disabled");
-                        }, 5000);
+                         $(".contact-form img.loader").fadeOut("slow", function () {
+                            $(this).remove();
+                      });
                     }
                 },
                 error: function (data) {
                     $("#message").hide();
                     $("#message").addClass("d-none");
                     $("#errormessage").removeClass("d-none");
+                     $("#submit").removeAttr("disabled");
                     $("#errormessage").text("Technical Error Please Contact Our WhatsApp Number");
                      $(".contact-form img.loader").fadeOut("slow", function () {
                             $(this).remove();
-                        });
-                    setTimeout(function () {
-                        $("#errormessage").slideUp("slow");
-                        $("#submit").removeAttr("disabled");
-                    }, 5000);
+                     });
+                  
                 },
             });
         });
