@@ -1890,9 +1890,13 @@
                     $("#message").hide();
                     $("#message").addClass("d-none");
                     $("#errormessage").removeClass("d-none");
-                    $("#errormessage").text("Technical Error Please try again");
+                    $("#errormessage").text("Technical Error Please Contact Our WhatsApp Number");
+                     $(".contact-form img.loader").fadeOut("slow", function () {
+                            $(this).remove();
+                        });
                     setTimeout(function () {
                         $("#errormessage").slideUp("slow");
+                        $("#submit").removeAttr("disabled");
                     }, 5000);
                 },
             });
