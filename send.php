@@ -44,16 +44,16 @@ try {
     //Server settings
     // $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'mail.safikulportfolio.online';                     //Set the SMTP server to send through
+    $mail->Host       = 'mail.eyeclapfoundation.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-    $mail->Username   = 'support@safikulportfolio.online';                     //SMTP username
-    $mail->Password   = 'p7eL]*95FEe2rV';                               //SMTP password
+    $mail->Username   = 'support@eyeclapfoundation.com';                     //SMTP username
+    $mail->Password   = 'KfQ7!X9Vw5i[8x';                               //SMTP password
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients
-    $mail->setFrom('support@safikulportfolio.online', 'Safikul Portfolio');
-    $mail->addAddress('safikulislam0786@gmail.com', 'Test');     //Add a recipient
+    $mail->setFrom('support@eyeclapfoundation.com', 'Safikul Portfolio');
+    $mail->addAddress('safikulislam0786@gmail.com', 'Safikul Islam');     //Add a recipient
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
